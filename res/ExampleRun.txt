@@ -1,0 +1,66 @@
+Welcome! This is a battle game which is started by entering two players' name such as 'start Jimmy Tom'
+ and then the two players will enter the arena and start a battle.
+Notice that when the health of one of the players equals to zero, the game will be over! And whose 
+ health is greater than zero at the end of the game is the winner!Now start your game!
+Please enter 'start' + players' name:start Tom Jerry
+Players' basic abilities:
+Tom:STRENGTH:5,CONTITUTION:3,DEXTERITY:5,CHARISMA:5
+Jerry:STRENGTH:4,CONTITUTION:3,DEXTERITY:4,CHARISMA:4
+
+Please enter 'e' to enter the arena:e
+Players' description:
+Tom:
+wearing gears:
+use a HEADGEAR: CONTITUTION +5,
+use a POTION: CONTITUTION +3,
+use a POTION: CONTITUTION +4,
+use a POTION: CONTITUTION +4,
+use a MEDIUM BELT: CONTITUTION -2,CHARISMA -2,
+use a LARGE BELT: CONTITUTION -4,CHARISMA -4,
+use a LARGE BELT: CONTITUTION -4,CHARISMA -4,
+use a FOOTWEAR: DEXTERITY +4,
+weapon: an axe, damage: 6~10
+
+Jerry:
+wearing gears:
+use a HEADGEAR: CONTITUTION -3,
+use a POTION: STRENGTH +10,
+use a POTION: DEXTERITY +5,
+use a MEDIUM BELT: CONTITUTION -2,CHARISMA -2,
+use a LARGE BELT: CONTITUTION +4,CHARISMA +4,
+use a LARGE BELT: CONTITUTION +4,CHARISMA +4,
+use a FOOTWEAR: DEXTERITY +4,
+weapon: a flail, damage: 8~12, ability: DEXTERITY, threshold: 14
+
+Players' temporary abilities:
+Tom:STRENGTH:0,CONTITUTION:6,DEXTERITY:4,CHARISMA:-10
+Jerry:STRENGTH:10,CONTITUTION:3,DEXTERITY:9,CHARISMA:6
+
+Players' total abilities:
+Tom:STRENGTH:5,CONTITUTION:9,DEXTERITY:9,CHARISMA:-5
+Jerry:STRENGTH:14,CONTITUTION:6,DEXTERITY:13,CHARISMA:10
+
+Now start fighting!
+Tom's health:18, Jerry's health:43
+Jerry first attack.
+
+Please enter 'f' to start attacking:f
+Jerry: strikingPower:23, potentialDamage:19
+Tom: avoidanceAbility:15, constitution:9
+Jerry attacked Tom successfully.Tom got 10 damage
+Tom's health:8, Jerry's health:43
+
+Please enter 'f' to start attacking:f
+Tom: strikingPower:4, potentialDamage:12
+Jerry: avoidanceAbility:19, constitution:6
+Tom failed to attack Jerry
+Tom's health:8, Jerry's health:43
+
+Please enter 'f' to start attacking:f
+Jerry: strikingPower:15, potentialDamage:18
+Tom: avoidanceAbility:9, constitution:7
+Jerry attacked Tom successfully.Tom got 11 damage
+Tom's health:0, Jerry's health:43
+
+Game is over! The winner is Jerry!
+Please enter 'r' to play a rematch or 'q' to quit the game:q
